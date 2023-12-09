@@ -122,6 +122,8 @@ class ARROW_EXPORT CodecOptions {
 // ----------------------------------------------------------------------
 // GZip codec options implementation
 
+#undef ZLIB
+
 enum class GZipFormat {
   ZLIB,
   DEFLATE,

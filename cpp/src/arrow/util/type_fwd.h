@@ -43,6 +43,10 @@ struct Scope;
 }  // namespace tracing
 }  // namespace internal
 
+#undef SNAPPY
+#undef ZSTD
+#undef LZ4
+
 struct Compression {
   /// \brief Compression algorithm
   enum type {
